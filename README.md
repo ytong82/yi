@@ -1,7 +1,5 @@
-#yi
-"驿" 是一个实时数据处理的平台项目，包含两个子项目“漕”和“驰道”。
+# yi
+Yi is a real time Danmu data processing platform, including two sub projects for Cao and Chidao
 
-“漕“是一个通过Flume解析产生的日志文件，并将通过处理的日志文件通过消息的方式发送到其它的数据源中。
-比如Kafka消息中间件或者HBase列式数据库。
-
-”驰道“是一个基于Storm的实时数据处理平台。实时数据平台中的各个模块互相连接，提供秒级的数据实时处理能力。
+Cao is a porject using Flume to parse the log files and send processed data extracted from log files to other data source by messages, for example Kafka or HBase.
+Chidao is a real time data process platform based on Storm with its connected module, to provide second level real time data processing ability.
